@@ -1,5 +1,5 @@
 <template>
-<body>
+<div>
 <form>
    <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
         <div class="card table-card">
@@ -8,28 +8,40 @@
               <div class="form-group">
                 <label for="exampleFormControlInput1">Question n°1</label>
                 <ul>
-                    <!-- <li v-for="(quest, key) in questions" :key="key">{{ quest.question }}</li> -->
+                    <!-- <text v-model="questions" class="space-control"></text> -->
+                    <h4  v-on:click.stop="next">{{questions.question}}</h4>
                 </ul>
                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Répondez a la question">
               </div>
-                  <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Valider</button>
+                  <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">question suivante</button>
           </div>
         </div>
 </div>
 </form>
-</body>
+</div>
 </template>
 <script>
-import { questionnaire } from '../assets/question.js'
-console.log(questionnaire)
+import { questions } from '../assets/question.js'
 export default {
   name: 'AHQuestion',
   data () {
+    var tailletableau = questions.length
+    var random = Math.floor(Math.random() * (tailletableau))
     return {
-      questions: []
+      questions: questions[random]
     }
   },
-  mounted () {
-    console.log(this.questions)
+  methods: {
+    next () {
+      var tailletableau = questions.length
+      var random = Math.floor(Math.random() * (tailletableau))
+      var result = questions[random]
+      var result2 = result.question
+      console.log(result2)
+      return {
+        result2
+      }
+    }
   }
 }
+</script>

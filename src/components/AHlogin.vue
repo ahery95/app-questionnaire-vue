@@ -8,18 +8,18 @@
             <h5 class="card-title text-center">Connexion</h5>
             <form class="form-signin">
               <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                <input type="text" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
                 <label for="inputEmail">Prenom</label>
               </div>
               <div class="form-label-group">
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <input type="text" id="inputPassword" class="form-control" placeholder="Password" required>
                 <label for="inputPassword">Nom</label>
               </div>
                 <div class="form-label-group">
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <input type="text" id="inputPassword" class="form-control" placeholder="Password" required>
                 <label for="inputPassword">Nom de votre société</label>
               </div>
-              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Commencer le test</button>
+              <button v-on:click="redirect" class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Commencer le test</button>
               <hr class="my-4">
             </form>
           </div>
@@ -29,3 +29,13 @@
   </div>
 </body>
 </template>
+<script>
+import routeur from '../router/index.js'
+export default {
+  methods: {
+    redirect () {
+      routeur.push({ name: 'Question' })
+    }
+  }
+}
+</script>
