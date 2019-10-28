@@ -1,29 +1,4 @@
-# app-questionnaire-vue
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+ajout page login et questionnaire.
+import du fichier json en cours.
+objectif lire les données du fichier json et ecrire les questions + gestion des
+utilisateurs.
