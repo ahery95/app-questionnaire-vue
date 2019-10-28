@@ -5,6 +5,11 @@
     <router-view/>
   </div>
 </template>
+<script>
+export default {
+  name: 'questionnaire'
+}
+</script>
 
 <style lang="scss">
 #app {

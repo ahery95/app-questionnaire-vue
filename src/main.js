@@ -7,7 +7,6 @@ import './registerServiceWorker'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import './css/AHlogin.css'
-import './assets/question.json'
 Vue.config.productionTip = false
 Vue.use(BootstrapVue)
 new Vue({
