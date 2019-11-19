@@ -4,16 +4,16 @@
             "texte": "Comment ce mot s'ecrit t-il?",
             "reponse": [
                 {   "reponse":"Mississippi",
-                    "bool": false,
-                    "true_response": true
+                    "status": false,
+                    "good_reponse": true
                 },            
                 {   "reponse":"Missisipi",
-                    "bool": false,
-                    "true_response":false
+                    "status": false,
+                    "good_reponse":false
                 },
                 {   "reponse":"Misissipi",
-                    "bool": false,
-                    "true_response": false
+                    "status": false,
+                    "good_reponse": false
                 }
             ]
         },
@@ -21,16 +21,16 @@
             "texte": "Le Premier ministre du Royaume-Uni est en 2010 : ",
             "reponse": [
                 {   "reponse":"Gordon Brown",
-                    "bool": false,
-                    "true_response":true
+                    "status": false,
+                    "good_reponse":true
                 },
                 {   "reponse":"Tony Blair",
-                    "bool":false,
-                    "true_response": false    
+                    "status":false,
+                    "good_reponse": false    
                 },
                 {   "reponse":"Margaret Tatcher",
-                    "bool":false,
-                    "true_response": false   
+                    "status":false,
+                    "good_reponse": false   
                 }
             ]
         },
@@ -38,16 +38,16 @@
             "texte": "On doit l’expression « rideau de fer » à :",
             "reponse": [
                 {   "reponse":"Charles de Gaulle",
-                    "bool": false,
-                    "true_response":false
+                    "status": false,
+                    "good_reponse":false
                 },
                 {   "reponse":"Winston Churchill",
-                    "bool":false,
-                    "true_response": true    
+                    "status":false,
+                    "good_reponse": true    
                 },
                 {   "reponse":"Mr Braux",
-                    "bool":false,
-                    "true_response": false   
+                    "status":false,
+                    "good_reponse": false   
                 }
             ]
         },
@@ -55,16 +55,16 @@
             "texte": "OTAN signifie :",
             "reponse": [
                 {   "reponse":"Organisme transatlantique d'avancement nordique",
-                    "bool": false,
-                    "true_response":false
+                    "status": false,
+                    "good_reponse":false
                 },
                 {   "reponse":"Organe temporaires des armées unis",
-                    "bool":false,
-                    "true_response": false    
+                    "status":false,
+                    "good_reponse": false    
                 },
                 {   "reponse":"Organisation du traité de l'atlantique nort",
-                    "bool":false,
-                    "true_response": true   
+                    "status":false,
+                    "good_reponse": true   
                 }
             ]
         },
@@ -72,16 +72,16 @@
             "texte": "Le produit est le résultat : ",
             "reponse": [
                 {   "reponse":"d'une addition",
-                    "bool": false,
-                    "true_response":false
+                    "status": false,
+                    "good_reponse":false
                 },
                 {   "reponse":"d'une soustraction",
-                    "bool":false,
-                    "true_response": false    
+                    "status":false,
+                    "good_reponse": false    
                 },
                 {   "reponse":"d'une multiplication",
-                    "bool":false,
-                    "true_response": true   
+                    "status":false,
+                    "good_reponse": true   
                 }
             ]
         },
@@ -89,16 +89,16 @@
             "texte": "La somme des angles d’un carré est égale à : ",
             "reponse": [
                 {   "reponse":"360°",
-                    "bool": false,
-                    "true_response":true
+                    "status": false,
+                    "good_reponse":true
                 },
                 {   "reponse":"180°",
-                    "bool":false,
-                    "true_response": false    
+                    "status":false,
+                    "good_reponse": false    
                 },
                 {   "reponse":"125°",
-                    "bool":false,
-                    "true_response": false   
+                    "status":false,
+                    "good_reponse": false   
                 }
             ]
         },
@@ -106,16 +106,16 @@
             "texte": " Quel est le plus grand diviseur commun de 52, 84, 108 et 140 ?  ?",
             "reponse": [
                 {   "reponse":"4",
-                    "bool": false,
-                    "true_response":true
+                    "status": false,
+                    "good_reponse":true
                 },
                 {   "reponse":"2",
-                    "bool":false,
-                    "true_response": false    
+                    "status":false,
+                    "good_reponse": false    
                 },
                 {   "reponse":"7",
-                    "bool":false,
-                    "true_response": false   
+                    "status":false,
+                    "good_reponse": false   
                 }
             ]
         },
@@ -123,16 +123,16 @@
             "texte": "Lequel de ces bienfaits ne peut être attribué au thé ? ",
             "reponse": [
                 {   "reponse":"Prevention des caries",
-                    "bool": false,
-                    "true_response": false
+                    "status": false,
+                    "good_reponse": false
                 },
                 {   "reponse":"Pouvoir aphrodisiaque",
-                    "bool":false,
-                    "true_response": false    
+                    "status":false,
+                    "good_reponse": false    
                 },
                 {   "reponse":"Lutte contre le veillissement",
-                    "bool":false,
-                    "true_response": true   
+                    "status":false,
+                    "good_reponse": true   
                 }    
             ]
         },
@@ -140,16 +140,16 @@
             "texte": "Lequel de ces fruits a davantage de vitamine C ? ",
             "reponse": [
                 {   "reponse":"l'orange",
-                    "bool": false,
-                    "true_response":true
+                    "status": false,
+                    "good_reponse":true
                 },
                 {   "reponse":"la banane",
-                    "bool":false,
-                    "true_response": false    
+                    "status":false,
+                    "good_reponse": false    
                 },
                 {   "reponse":"le kiwi",
-                    "bool":false,
-                    "true_response": false   
+                    "status":false,
+                    "good_reponse": false   
                 }
             ]
         },
@@ -157,16 +157,16 @@
             "texte": "Une tasse de thé ou de café représente :",
             "reponse": [
                 {   "reponse":"30 calories",
-                    "bool": false,
-                    "true_response":true
+                    "status": false,
+                    "good_reponse":true
                 },
                 {   "reponse":"10 calories",
-                    "bool":false,
-                    "true_response": false    
+                    "status":false,
+                    "good_reponse": false    
                 },
                 {   "reponse":"0 calorie",
-                    "bool":false,
-                    "true_response": false   
+                    "status":false,
+                    "good_reponse": false   
                 }
             ]
         }
